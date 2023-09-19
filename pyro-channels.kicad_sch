@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d8023736-0b85-42d5-aeb5-5298f2605462)
+
+  (paper "A4")
+
+  (title_block
+    (title "Pyrotechnic Channels")
+    (date "2023-09-19")
+    (rev "0")
+  )
+
+  (lib_symbols
+  )
+
+)
