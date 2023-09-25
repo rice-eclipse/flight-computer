@@ -1446,6 +1446,7 @@
     )
   )
 
+
   (junction (at 63.5 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 078fed73-d5cc-43c3-bba7-0bb5fdc3e5c8)
   )
@@ -3035,7 +3036,7 @@
   (symbol (lib_id "power:GND") (at 69.85 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36bf0ed4-33a5-4ade-b447-4a3bb8e76529)
-    (property "Reference" "#PWR023" (at 69.85 57.15 0)
+    (property "Reference" "#PWR0106" (at 69.85 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 55.88 0)
@@ -3051,7 +3052,7 @@
     (instances
       (project "Flight Computer"
         (path "/0c1188a1-706b-46cd-a73a-5b3f8187d77a/afc466af-6d84-4e19-b5b5-aea43618ea20"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
