@@ -766,7 +766,6 @@
     )
   )
 
-
   (junction (at 67.31 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 08a621fc-2e43-4ada-a648-be88e984e17a)
   )
@@ -2292,10 +2291,10 @@
     (property "Reference" "U7" (at 151.13 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "W25Q128JVEIQ" (at 151.13 165.1 0)
+    (property "Value" "W25Q128JVSIQ" (at 151.13 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm" (at 142.24 163.83 0)
+    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (at 142.24 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 142.24 163.83 0)

@@ -41,4 +41,9 @@
     (thermal_bridge_angle 45) (tstamp 0b229aca-c18f-4ba2-beeb-c1ded99350ff))
   (pad "10" smd roundrect (at 1.525 0) (size 0.275 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (thermal_bridge_angle 45) (tstamp f711a4a6-3bb1-4f42-9398-93ff2b45403e))
+  (model "${KIPRJMOD}/Bosch BMP388.step"
+    (offset (xyz 1.75 -1.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
