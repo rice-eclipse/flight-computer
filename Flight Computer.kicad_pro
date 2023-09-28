@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -463,7 +463,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/USB D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Connectors and Power Supply/USB CONN D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Connectors and Power Supply/USB CONN D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
