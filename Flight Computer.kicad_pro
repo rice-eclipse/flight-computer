@@ -537,8 +537,16 @@
       "Sensors"
     ],
     [
+      "d3a2bed6-f277-4c18-9b19-db934fe0c906",
+      "Power Supply"
+    ],
+    [
       "8b5c3409-c69f-490d-a71d-45a34969a1f1",
       "Pyrotechnic Channels"
+    ],
+    [
+      "1c711583-e10e-42d1-9de8-3f5bf7fe676f",
+      "Microcontroller"
     ],
     [
       "afc466af-6d84-4e19-b5b5-aea43618ea20",
