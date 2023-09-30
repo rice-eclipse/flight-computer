@@ -1201,7 +1201,7 @@
     (effects (font (size 3 3) (thickness 0.6) bold italic) (justify left bottom))
     (uuid 92523672-776a-4899-a2d1-69962ead016e)
   )
-  (text "U-blox SAM-M10 (the latest and greatest GPS module that\ndoes everything for you A.K.A. I'm not an RF engineer"
+  (text "U-blox SAM-M10 the latest and greatest GPS module that\ndoes everything for you A.K.A. I'm not an RF engineer"
     (at 210.82 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3f1b08b-d83e-4532-9418-cfce2abacb5e)
