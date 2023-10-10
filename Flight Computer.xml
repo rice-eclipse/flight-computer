@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/max/Documents/Rice Eclipse/Flight Computer/flight-computer/Flight Computer.kicad_sch</source>
-    <date>2023 October 02, Monday 01:28:38</date>
+    <date>2023 October 09, Monday 17:33:18</date>
     <tool>Eeschema 7.0.2-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -114,6 +114,171 @@
     </sheet>
   </design>
   <components>
+    <comp ref="TP1">
+      <value>5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27a14f0f-76cb-4c10-aa0a-39232d64cada</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>3.3V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b958dca3-0ac1-4c5b-9a2f-3bbb34fa83da</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SPI1 MISO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c51b7ab-470b-495f-99de-6b16161af8ea</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>SPI1 MOSI</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f77905dd-928d-4385-9d52-54c702885d90</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>SPI1 SCK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56ae3caf-e79e-41d0-b7db-a6897e27d34f</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>CS Altimeter</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbcd274d-a6ae-4fad-b8f6-22b933b99da5</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>CS High G</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9d1194d-a91c-47aa-8cb6-e61987ed2133</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>CS Low G Gyro</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233d2022-2288-4b29-b819-a8ca39f84dd4</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>CS Low G Accel</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab911cea-5789-40d3-89d7-77e0c9305c0b</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>UART2 TX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e94c939-37a4-474b-9650-ed454bdd19d6</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>UART2 RX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05b470d3-e209-4d18-8c98-76a38859d87f</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>Gnd</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9072348f-d555-49cf-b8a1-d6fa9e3ce13a</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>SDMMC Clock</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7179200d-a9e2-4ba6-b2e6-68eae3791b25</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>SDMMC Command</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1931e5f-ad63-4209-a54f-f9a28f10255c</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>QSPI Clock</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Flight Computer.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52fa9494-c20e-40b8-9df5-eaefe571f6f5</tstamps>
+    </comp>
     <comp ref="C1">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -576,72 +741,6 @@
       <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
       <tstamps>a02419d5-d40a-4753-8671-3f5665deeee5</tstamps>
-    </comp>
-    <comp ref="D9">
-      <value>B5819W SL</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
-      <property name="Sheetname" value="Pyrotechnic Channels"/>
-      <property name="Sheetfile" value="pyro-channels.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
-      <tstamps>2cb20d73-55db-46ed-a069-ba774cae6069</tstamps>
-    </comp>
-    <comp ref="D10">
-      <value>B5819W SL</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
-      <property name="Sheetname" value="Pyrotechnic Channels"/>
-      <property name="Sheetfile" value="pyro-channels.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
-      <tstamps>7a447157-d424-4bc0-ac7a-6a786b0db73e</tstamps>
-    </comp>
-    <comp ref="D11">
-      <value>B5819W SL</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
-      <property name="Sheetname" value="Pyrotechnic Channels"/>
-      <property name="Sheetfile" value="pyro-channels.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
-      <tstamps>1efc91f8-32f9-451f-b3a3-7f08ed334742</tstamps>
-    </comp>
-    <comp ref="D12">
-      <value>B5819W SL</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
-      <property name="Sheetname" value="Pyrotechnic Channels"/>
-      <property name="Sheetfile" value="pyro-channels.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
-      <tstamps>738af59c-041e-415c-a8df-791992b50827</tstamps>
-    </comp>
-    <comp ref="D13">
-      <value>B5819W SL</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
-      <property name="Sheetname" value="Pyrotechnic Channels"/>
-      <property name="Sheetfile" value="pyro-channels.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
-      <tstamps>c2250374-f28a-471a-8975-3485d54db748</tstamps>
-    </comp>
-    <comp ref="D14">
-      <value>B5819W SL</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
-      <property name="Sheetname" value="Pyrotechnic Channels"/>
-      <property name="Sheetfile" value="pyro-channels.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Pyrotechnic Channels/" tstamps="/8b5c3409-c69f-490d-a71d-45a34969a1f1/"/>
-      <tstamps>cdd81757-8574-46ae-a632-92098bf3367c</tstamps>
     </comp>
     <comp ref="J1">
       <value>Screw Switches</value>
@@ -1461,6 +1560,22 @@
         <pin num="11" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
       <description>USB 2.0-only Type-C Receptacle connector</description>
       <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
@@ -2178,6 +2293,7 @@
       <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="100" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="11" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="28" pinfunction="VDD" pintype="power_in"/>
@@ -2207,6 +2323,7 @@
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U8" pin="3" pinfunction="VOUT" pintype="power_out"/>
       <node ref="U8" pin="4" pinfunction="VOUT" pintype="passive"/>
     </net>
@@ -2232,18 +2349,22 @@
       <node ref="U5" pin="7" pinfunction="Interrupt" pintype="output"/>
     </net>
     <net code="5" name="/Chip Select Altimeter">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="PE3" pintype="bidirectional"/>
       <node ref="U5" pin="6" pinfunction="Chip_Select" pintype="input"/>
     </net>
     <net code="6" name="/Chip Select High G Accel">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="92" pinfunction="PB6" pintype="bidirectional"/>
       <node ref="U3" pin="7" pinfunction="Chip_Select" pintype="input"/>
     </net>
     <net code="7" name="/Chip Select Low G Accel">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="97" pinfunction="PE0" pintype="bidirectional"/>
       <node ref="U4" pin="14" pinfunction="Chip_Select_Accel" pintype="input"/>
     </net>
     <net code="8" name="/Chip Select Low G Gyro">
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="95" pinfunction="PB8" pintype="bidirectional"/>
       <node ref="U4" pin="5" pinfunction="Chip_Select_Gyro" pintype="input"/>
     </net>
@@ -2403,42 +2524,36 @@
       <node ref="U1" pin="29" pinfunction="PA4" pintype="bidirectional"/>
     </net>
     <net code="39" name="/Pyrotechnic Channels/Pyro Channel A">
-      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
     <net code="40" name="/Pyrotechnic Channels/Pyro Channel B">
-      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="41" name="/Pyrotechnic Channels/Pyro Channel C">
-      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
     <net code="42" name="/Pyrotechnic Channels/Pyro Channel D">
-      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
     <net code="43" name="/Pyrotechnic Channels/Pyro Channel E">
-      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
     <net code="44" name="/Pyrotechnic Channels/Pyro Channel F">
-      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
@@ -2449,6 +2564,7 @@
       <node ref="U7" pin="1" pinfunction="~{CS}" pintype="input"/>
     </net>
     <net code="46" name="/QSPI Clock">
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="41" pinfunction="PE10" pintype="bidirectional"/>
       <node ref="U7" pin="6" pinfunction="CLK" pintype="input"/>
     </net>
@@ -2475,10 +2591,12 @@
     </net>
     <net code="52" name="/SDMMC Clock">
       <node ref="J10" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="80" pinfunction="PC12" pintype="bidirectional"/>
     </net>
     <net code="53" name="/SDMMC Command">
       <node ref="J10" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="83" pinfunction="PD2" pintype="bidirectional"/>
     </net>
     <net code="54" name="/SDMMC Data 0">
@@ -2498,6 +2616,7 @@
       <node ref="U1" pin="79" pinfunction="PC11" pintype="bidirectional"/>
     </net>
     <net code="58" name="/SPI1 MISO">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="90" pinfunction="PB4" pintype="bidirectional"/>
       <node ref="U3" pin="12" pinfunction="SDO/Addr_sel" pintype="bidirectional"/>
       <node ref="U4" pin="10" pinfunction="SDO2" pintype="output"/>
@@ -2505,12 +2624,14 @@
       <node ref="U5" pin="5" pinfunction="SDO" pintype="bidirectional"/>
     </net>
     <net code="59" name="/SPI1 MOSI">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="91" pinfunction="PB5" pintype="bidirectional"/>
       <node ref="U3" pin="13" pinfunction="SDA/SDI" pintype="bidirectional"/>
       <node ref="U4" pin="9" pinfunction="SDA/SDI" pintype="bidirectional"/>
       <node ref="U5" pin="4" pinfunction="SDI" pintype="bidirectional"/>
     </net>
     <net code="60" name="/SPI1 SCK">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="89" pinfunction="PB3" pintype="bidirectional"/>
       <node ref="U3" pin="14" pinfunction="SCL/SCK" pintype="bidirectional"/>
       <node ref="U4" pin="8" pinfunction="SCL/SCK" pintype="input"/>
@@ -2525,10 +2646,12 @@
       <node ref="U1" pin="72" pinfunction="PA13" pintype="bidirectional"/>
     </net>
     <net code="63" name="/UART2 RX">
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="87" pinfunction="PD6" pintype="bidirectional"/>
       <node ref="U11" pin="13" pinfunction="TXD" pintype="output"/>
     </net>
     <net code="64" name="/UART2 TX">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="86" pinfunction="PD5" pintype="bidirectional"/>
       <node ref="U11" pin="14" pinfunction="RXD" pintype="input"/>
     </net>
@@ -2586,18 +2709,12 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="J10" pin="11" pinfunction="SHIELD" pintype="passive"/>
@@ -2639,6 +2756,7 @@
       <node ref="R35" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="VSS" pintype="power_in"/>
       <node ref="U1" pin="19" pinfunction="VSSA" pintype="power_in"/>
       <node ref="U1" pin="20" pinfunction="VREF-" pintype="input"/>

@@ -2421,7 +2421,7 @@
     (property "Reference" "D2" (at 231.14 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Red" (at 231.14 134.62 90)
+    (property "Value" "Green" (at 231.14 134.62 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 228.6 133.35 0)

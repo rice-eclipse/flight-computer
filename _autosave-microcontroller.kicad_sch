@@ -3796,7 +3796,7 @@
     (property "Reference" "D1" (at 88.9 168.91 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Green" (at 88.9 171.45 90)
+    (property "Value" "Blue" (at 88.9 171.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 85.09 168.91 0)
