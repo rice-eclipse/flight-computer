@@ -2995,7 +2995,7 @@
     (property "Reference" "R45" (at 184.15 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "51k" (at 184.15 76.2 0)
+    (property "Value" "47k" (at 184.15 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 181.102 74.93 90)
