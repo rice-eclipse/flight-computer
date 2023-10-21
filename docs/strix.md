@@ -2,8 +2,7 @@
 
 Strix is a completely student researched and designed flight computer. It was created to record data, transmit telemetry, and control in-flight events in Eclipse's rockets. It is intended to supplement/replace altimeters and flight computers Eclipse currently uses, including Missileworks RRC2+s, Featherweight Altimeters Raven Blues, and Altus Metrum TeleMegas.
 
-![Image of front of Strix](.images/front.png)
-![Image of back of Strix](./images/back.png)
+![Image of front of Strix](images/front.png)![Image of back of Strix](images/back.png)
 
 ## Requirements
 
@@ -23,9 +22,25 @@ The design of Strix is split up into sections, each occupying a separate hierarc
 
 ### Pyrotechnic Charges
 
+The terminal blocks for the pyrotechnic charges were chosen to provide an upgrade to the traiditionally used screw switches. Screw switches require using solid-core wire to avoid wires falling out due to vibrations in flight of the rocket, while lever nuts like the ones used, **Wago 218-108** terminal blocks, provide spring-loaded pressure that functions equally well with stranded core as well as solid core wire. Another reason these were chosen is the ease of swapping out wires into these lever nuts is another benefit of this choice.
+
 ### Sensors and Data Storage
 
+The sensors used on this board are as follows:
+
+- Bosch **BMI088** ruggedized accelerometer measuring $\pm$ 16 Gs
+  - This is Bosch's accelerometer designed specifically for robotics and drone applications, and advertises high resistance to vibrations.
+- Analog Devices **ADXL375** High-G accelerometer reading $\pm$ 64 Gs
+- Bosch **BMP388** barometric pressure sensor
+  - This was the second choice after the Measurement Specialties MS5611, but was chosen due to better stock at JLCPCB.
+- U-blox **SAM-M10** GNSS receiver
+  - This was chosen to provide a drop-in solution for GNSS reception, including an antenna. It increases cost by about $10 over alternatives without included antennas, but the decision was made to ensure GPS functionality.
+
 ### Connectors
+
+The connectors were chosen to maximize ease of use and expandability. There are breakouts for external connections to dedicated SPI, I2C, and UART busses through Molex Picoblade connectors. A Molex Picoblade connector is also used for the Serial Wire Debug connection to the STM32 Microcontroller.
+
+The connector schematic sheet contains the expansion ports, battery plug, and USB port, along with associated circuit elements. The USB port is a USB-C port running at USB 2.0 speeds, connected to a **USB-LC6** electrostatic discharge protection chip.
 
 ### Power Supply
 
@@ -33,8 +48,8 @@ The power supply was designed to accept either USB bus voltage (between 4.5 and 
 
 To prioritize the USB input voltage over discharging a connected battery, the power supply makes use of a pair of P-channel MOSFETs, which also protect against reverse polarity battery connections. These are configured such that if the USB V<sub>bus</sub> rail is powered, the P-channel mosfet connected to the input of the boost converter is reverse-biased, so does not allow current to flow from the battery input. If the USB V<sub>bus</sub> is not powered, the gate of this MOSFET is connected to ground through a 100k Ohm resistor, which forward-biases the MOSFET and allows current to flow. The battery input is thus connected to the TPS61230, and the +5.1V output from this is connected to the LM3670, with a second P-channel MOSFET between this and the USB V<sub>bus</sub> rail. The gate of this second P-channel MOSFET is shorted to ground, which only allows current to flow from the V<sub>bus</sub> input to the LM3670, and not from the boost converter output back towards the USB connector. This is necessary to prevent the boost converter from turning itself off with its own output.
 
-![Sections of schematic showing wiring of powerpath MOSFET for boost converter](./images/boost-mosfet.png)
-![Sections of schematic showing wiring of powerpath MOSFET for buck converter](./images/buck-mosfet.png)
+![Sections of schematic showing wiring of powerpath MOSFET for boost converter](images/boost-mosfet.png)
+![Sections of schematic showing wiring of powerpath MOSFET for buck converter](images/buck-mosfet.png)
 
 The surrounding components for both the Boost and Buck converter were chosen according to guidelines in the datasheets for both components.
 
@@ -50,4 +65,4 @@ The physical specifications of the board are: PCB 39mm wide by 80mm long. Compon
 
 The test points are shown in the diagram below, and labeled in the following table:
 
-![Close up of test points on the B.Cu layer](./images/test-points.png)
+![Close up of test points on the B.Cu layer](images/test-points.png)
