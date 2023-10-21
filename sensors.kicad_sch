@@ -1339,8 +1339,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1563c58c-e2d0-49d1-bd55-7c2e4ed4177a)
   )
-  (text "NOR flash which is kinda sad, but it is a basic\npart at JLC (no $3 fee for this part woohoo)"
-    (at 116.84 189.23 0)
+  (text "NOR flash (I think, honestly unclear)\nbasic part at JLC (no $3 fee for this\npart woohoo); current draw of 20mA is\nfine"
+    (at 119.38 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 364abfd7-1611-4f31-889d-a3710c4f4214)
   )
