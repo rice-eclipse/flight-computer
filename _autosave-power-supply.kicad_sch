@@ -1392,7 +1392,7 @@
     (property "Reference" "R5" (at 229.87 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 229.87 144.78 0)
+    (property "Value" "1.5k" (at 229.87 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 226.822 143.51 90)
@@ -2597,10 +2597,10 @@
   (symbol (lib_id "Device:L") (at 143.51 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fec14e54-5bf1-4d37-a7cd-53ae892ad174)
-    (property "Reference" "L3" (at 143.51 43.18 90)
+    (property "Reference" "L3" (at 140.97 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1u" (at 143.51 45.72 90)
+    (property "Value" "1u" (at 146.05 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S" (at 143.51 48.26 0)
@@ -2609,8 +2609,8 @@
     (property "Datasheet" "~" (at 143.51 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf9d0b47-cd75-4735-a44e-82da85c8c1d8))
-    (pin "2" (uuid ef6edb6d-6d0d-4612-87df-4f916be9cf66))
+    (pin "1" (uuid b2013d94-530c-46a7-8e3b-7b6210a8da6d))
+    (pin "2" (uuid 646d0d52-1c0a-430b-8e2e-270d8ea255c7))
     (instances
       (project "Flight Computer"
         (path "/0c1188a1-706b-46cd-a73a-5b3f8187d77a/afc466af-6d84-4e19-b5b5-aea43618ea20"
