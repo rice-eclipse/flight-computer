@@ -19,6 +19,8 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 41927147-0f12-42b5-8f58-1f0f159eb600))
   (fp_line (start -1.5 -2.5) (end -5.5 -2.5)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 3428793d-c83e-497a-b6ac-a084d6204430))
+  (fp_line (start 9 3.5) (end 9 21)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 42f99a92-b5e0-45ca-bf0c-8b3ecaf6f897))
   (fp_rect (start -5.35 -2.44) (end 9.15 26.56)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 99ed3293-aaee-4ad5-80de-258b19fa84bc))
   (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 9e69f6ea-a272-4405-be08-0a201b5525bd))
@@ -37,9 +39,24 @@
   (pad "14" thru_hole circle (at 5 21) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp e60c1aac-ad08-48b1-b48b-33b002bb56a7))
   (pad "15" thru_hole circle (at 0 24.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp df97dbaa-09f7-4498-9de2-cc229571a268))
   (pad "16" thru_hole circle (at 5 24.5) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp dbcd6a91-896a-4bb3-ac2e-fefffbc31fb8))
-  (model "${KIPRJMOD}/models/2601-1108.stp"
+  (model "${KIPRJMOD}/models/2601-1108.stp" hide
     (offset (xyz 0 -25.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
+  )
+  (model "${KIPRJMOD}/models/1862107.stp" hide
+    (offset (xyz -3 2.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/models/1823696.stp" hide
+    (offset (xyz -3 2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/models/1861991.stp"
+    (offset (xyz -3 2.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
