@@ -3,4 +3,4 @@ Custom STM32-Based flight computer to gather data from IMUs, altimeters, and GPS
 
 This repository contains KiCAD schematics and layouts for this flight computer. The schematics use hierarchical schematic sheets, with sheets defined for the microcontroller, sensors/data storage, pyrotechnic channels, connectors, and power supply.
 
-Documentation: (docs/strix.md)
+Documentation: [docs/strix.md](docs/strix.md)
