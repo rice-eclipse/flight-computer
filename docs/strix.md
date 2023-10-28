@@ -49,7 +49,7 @@ The connector schematic sheet contains the expansion ports, battery plug, and US
 
 ### Power Supply
 
-<p float="left>
+<p float="left">
    <img src="images/schematic-boost.png" alt="Section of schematic showing boost converter" width="40%"/>
    <img src="images/schematic-buck.png" alt="Section of schematic showing buck converter" width="40%"/>
 </div>
