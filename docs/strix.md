@@ -49,8 +49,14 @@ The connector schematic sheet contains the expansion ports, battery plug, and US
 
 ### Power Supply
 
-<img src="images/schematic-boost.png" alt="Section of schematic showing boost converter" width="40%">
-<img src="images/schematic-buck.png" alt="Section of schematic showing buck converter" width="40%">
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="images/schematic-boost.png" alt="Section of schematic showing boost converter" width="40%"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="images/schematic-buck.png" alt="Section of schematic showing buck converter" width="40%"/>
+     </div>
+</div>
 
 The power supply was designed to accept either USB bus voltage (between 4.5 and 5.5 volts) or battery voltage between 2 and 5 volts. This is acheived through a two phase boost-buck architecture. The boost converter, a **TPS61230**, first converts from the battery voltage to +5.1 volts, which is then combined with USB power and supplied to an **LM3670** buck converter to regulate down to +3.3 volts to supply the Microcontroller, sensors, flash storage chip, MicroSD card, and other assorted components.
 
