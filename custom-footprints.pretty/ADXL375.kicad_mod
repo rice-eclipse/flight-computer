@@ -49,7 +49,7 @@
     (thermal_bridge_angle 45) (tstamp 28cf4fb6-eb86-4c6b-8d0f-0827bcc5872e))
   (pad "14" smd roundrect (at 1.0975 -0.0975) (size 0.55 1.145) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (thermal_bridge_angle 45) (tstamp d368613a-afd4-4238-ae32-536819bd83fa))
-  (model "${KIPRJMOD}/ADXL375BCCZ-RL7.STEP"
+  (model "${KIPRJMOD}/models/ADXL375BCCZ-RL7.STEP"
     (offset (xyz 1.1 -2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -1,4 +1,4 @@
-21684482442216386
+21689603973529891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90244,6 +90244,13 @@ BMP388
 10
 10
 custom-footprints
+Pheonix-Contact-1861991
+
+
+0
+16
+16
+custom-footprints
 Wago_Custom_218-108
 
 
@@ -90251,7 +90258,21 @@ Wago_Custom_218-108
 16
 16
 custom-footprints
+Wago_Custom_2601-1108
+
+
+0
+16
+16
+custom-footprints
 littelfuse-2920L125PR
+
+
+0
+2
+2
+custom-footprints
+littelfuse-2920L125PR 2
 
 
 0
