@@ -49,8 +49,10 @@ The connector schematic sheet contains the expansion ports, battery plug, and US
 
 ### Power Supply
 
-<img src="images/schematic-boost.png" alt="Section of schematic showing boost converter" width="40%">
-<img src="images/schematic-buck.png" alt="Section of schematic showing buck converter" width="40%">
+<p float="center">
+   <img src="images/schematic-boost.png" alt="Section of schematic showing boost converter" width="70%"/>
+   <img src="images/schematic-buck.png" alt="Section of schematic showing buck converter" width="70%"/>
+</div>
 
 The power supply was designed to accept either USB bus voltage (between 4.5 and 5.5 volts) or battery voltage between 2 and 5 volts. This is acheived through a two phase boost-buck architecture. The boost converter, a **TPS61230**, first converts from the battery voltage to +5.1 volts, which is then combined with USB power and supplied to an **LM3670** buck converter to regulate down to +3.3 volts to supply the Microcontroller, sensors, flash storage chip, MicroSD card, and other assorted components.
 
@@ -60,15 +62,19 @@ The surrounding components for both the Boost and Buck converter were chosen acc
 
 ## Layout
 
+<p float="center">
 <img src="images/routing-F.png" alt="Front Copper Pours and Traces" width="40%">
 <img src="images/routing-B.png" alt="Back Copper Pours and Traces" width="40%">
+</p>
 
 The layout was designed to optimize space consumption, as well as to facilitate ease-of-use and configurability. The expansion SPI, I2C, and UART ports are brought out to the edges of the board, as well as the serial wire debug port. Components are placed on both sides of the board, however all SMD components that can be assembled by JLSBCB are on the back (technically the F.Cu layer in KiCAD). The components left for the front are the Buzzer, GPS module, Main battery JST-PH plug, and terminal blocks for screw switches and Pyrotechnic charges.
 
 ### Physical Size
 
+<p float="center">
 <img src="images/render-front.png" alt="Render of front of board" width="40%">
 <img src="images/render-back.png" alt="Render of back of board" width="40%">
+</p>
 
 The physical specifications of the board are: PCB 39mm wide by 80mm long. Components extend <3.5mm from the back, and up to 8mm from the front. Mounting holes are uniform distances from the edge of the PCB, and are spaced 33mm x 72mm apart on each corner.
 
