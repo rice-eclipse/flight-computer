@@ -1,4 +1,4 @@
-21689606389259967
+21691304425513006
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90245,6 +90245,13 @@ BMP388
 10
 custom-footprints
 Pheonix-Contact-1861991
+
+
+0
+16
+16
+custom-footprints
+Pheonix-Contact-1861991 2
 
 
 0
