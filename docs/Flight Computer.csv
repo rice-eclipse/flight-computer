@@ -27,6 +27,7 @@ Comment,Designator,Footprint,LCSC
 "AO3400A","Q2,Q3,Q5,Q6,Q7,Q8","Package_TO_SOT_SMD:SOT-23","C20917"
 "200k","R1,R4,R7,R9,R11,R13,R15,R25","Resistor_SMD:R_0402_1005Metric","C25764"
 "1k","R18,R28","Resistor_SMD:R_0603_1608Metric","C21190"
+"12k","R22","Resistor_SMD:R_0402_1005Metric","C25752"
 "1M","R19","Resistor_SMD:R_0402_1005Metric","C26083"
 "47","R2","Resistor_SMD:R_0603_1608Metric","C23182"
 "5.1k","R20,R21","Resistor_SMD:R_0603_1608Metric","C23186"
