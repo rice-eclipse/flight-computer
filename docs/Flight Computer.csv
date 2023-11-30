@@ -19,7 +19,7 @@ Comment,Designator,Footprint,LCSC
 "Pyro Channels","J2","custom-footprints:Pheonix-Contact-1861991",""
 "External SPI","J3,J5","Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal",""
 "JST-PH","J4","Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",""
-"USB_C_Receptacle_USB2.0","J7","Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV","C2988369"
+"USB_C_Receptacle_USB2.0","J7","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C165948"
 "External UART","J8","Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal",""
 "External I2C","J9","Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal",""
 "1u","L3","Inductor_SMD:L_Sunlord_SWPA4030S","C42193"
