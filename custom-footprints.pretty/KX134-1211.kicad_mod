@@ -45,4 +45,9 @@
     (thermal_bridge_angle 45) (tstamp e662faf7-a694-44d9-ba89-3f1740233c86))
   (pad "12" smd roundrect (at -0.25 -0.75) (size 0.25 0.275) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (thermal_bridge_angle 45) (tstamp 546ba578-bc6d-419b-84c2-5f53a1c4031f))
+  (model "${KIPRJMOD}/models/LGA12_2X2X0P9_ROM.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1663,7 +1663,7 @@
     (property "Reference" "C19" (at 130.81 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 130.81 93.98 0)
+    (property "Value" "2.2u" (at 130.81 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 129.2352 96.52 0)
